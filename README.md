@@ -30,7 +30,7 @@ Optional Mods I used for performance.
 FORGE:
 [Clumps:](https://www.curseforge.com/minecraft/mc-mods/clumps) /
 [Connectivity:](https://www.curseforge.com/minecraft/mc-mods/connectivity) /
-[DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /https://www.curseforge.com/minecraft/mc-mods/optifabric
+[DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /
 [FastFurnace:](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) /
 [FastWorkbench:](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) /
 [Limited Chunkloading:](https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading) /
