@@ -3,10 +3,15 @@ Setup guide for getting Minecraft running on the PinePhone.
 
 
 WARNING: YOUR PINEPHONE WILL GET HOT!!! USE IN SINGLE SCREEN WHEN USING CONVERGENCE DOCK. 
+---
 
+Make sure you read below!
+---
       git clone https://github.com/Raezroth/Minecraft-Pinephone.git ~/Minecraft
       
       cd ~/Minecraft
+      
+      ./setupMC.sh
 
 Install OpenJDK for Launcher, Forge, & Optifine
 ---
@@ -25,7 +30,7 @@ Optional Mods I used for performance.
 FORGE:
 [Clumps:](https://www.curseforge.com/minecraft/mc-mods/clumps) /
 [Connectivity:](https://www.curseforge.com/minecraft/mc-mods/connectivity) /
-[DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /
+[DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /https://www.curseforge.com/minecraft/mc-mods/optifabric
 [FastFurnace:](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) /
 [FastWorkbench:](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) /
 [Limited Chunkloading:](https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading) /
