@@ -71,4 +71,4 @@ Distro: DanctNIX's ArchLinux Mobile
 
 Controller: PS5 Dualsense - Bluetooth
 
-(Note I have changed video settings to low & made edits to mods configuration)
+(Note I have changed video settings to low & made edits to mods configuration. I will provide my cfg files if requested.)
