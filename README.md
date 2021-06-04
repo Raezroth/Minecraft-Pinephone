@@ -68,18 +68,12 @@ Add `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64` or `-Dorg.lwjgl.librarypat
 into the beginning of JVM Arguments while editing a profile
 
 
-Optional: 
+FAQ
 ---
-1. Set java path to specific java version #I did this to be safe
 
-2. Set Minecraft version.
+Install Forge or Fabric -- Navigate to your Forge or Fabric installer, then `java -jar forge-installer.jar`
 
-Hit PLAY! Close when launched to install Forge & Optifine.
-
-Install Forge or Fabric:
-                                                  
-Navigate to your Forge or Fabric installer, then `java -jar forge-installer.jar`
-
+Anymore??
 
 TESTED ON: 
 ---
