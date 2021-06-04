@@ -57,7 +57,6 @@ Set Minecraft version.
 Hit PLAY! Close when launched to install Forge & Optifine.
 
 Install Forge:
-                                                  #path-to-jar
                                                   
 Navigate to your Forge installer, then java -jar forge-installer.jar
 
