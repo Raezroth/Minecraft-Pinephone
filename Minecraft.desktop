@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Game;Java;GTK;
+Comment=Minecraft Java Edition
+Comment=Minecraft Java Edition
+Exec=env /opt/jdk1.8.0_251/bin/java -jar ~/Minecraft/launcher.jar
+Icon=/opt/minecraft/minecraft_logo.png
+Keywords=Java;Mojang;
+MimeType=application/x-nx-xci;application/x-nx-nsp;application/x-nx-nso;application/x-nx-nro;
+Name=Minecraft
+Name=Minecraft
+Path=
+StartupNotify=true
+StartupWMClass=Minecraft
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
