@@ -7,6 +7,7 @@ WARNING: YOUR PINEPHONE WILL GET HOT!!! USE IN SINGLE SCREEN WHEN USING CONVERGE
 Install OpenJDK for Launcher, Forge, & Optifine
 ------------------------------------------------
 For ubuntu: sudo apt install openjdk-11-jdk -y
+
 For Arch based: sudo pacman -S jdk-openjdk
 
 Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
@@ -37,6 +38,7 @@ If you find anymore information on using this mod list, Please post an issue.
 I want to know.
 
 Run setup script.
+
 Run launcher via script or preferred method. #You may have to set the path to java
 
 
@@ -47,6 +49,7 @@ into the beginning of JVM Arguments
 Optional: 
 ------------
 Set java path to specific java version #I did this to be safe
+
 Set Minecraft version.
 
 Hit PLAY! Close when launched to install Forge & Optifine.
