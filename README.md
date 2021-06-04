@@ -39,7 +39,7 @@ I want to know.
 Run setup script.
 Run launcher via script or preferred method. #You may have to set the path to java
 
-   #use this one for the pinephone                    #doesn't work unless kernel supports 32bit
+
 Add -Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64 or -Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm32
 into the beginning of JVM Arguments 
 
@@ -53,6 +53,7 @@ Hit PLAY! Close when launched to install Forge & Optifine.
 
 Install Forge:
                                                   #path-to-jar
+                                                  
 Navigate to your Forge installer, then java -jar forge-installer.jar
 
 (Note I have changed video settings to low & made edits to mods configuration)
