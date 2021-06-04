@@ -9,17 +9,17 @@ WARNING: YOUR PINEPHONE WILL GET HOT!!! USE IN SINGLE SCREEN WHEN USING CONVERGE
       cd ~/Minecraft
 
 Install OpenJDK for Launcher, Forge, & Optifine
-------------------------------------------------
-For ubuntu: sudo apt install openjdk-11-jdk -y
+---
+For ubuntu: 'sudo apt install openjdk-11-jdk -y'
 
-For Arch based: sudo pacman -S jdk-openjdk
+For Arch based: 'sudo pacman -S jdk-openjdk'
 
 Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
 
 Download Optifine: https://optifine.net/downloads #Set Optifine in mods folder.
 
 Optional Mods I used for performance. 
---------------------------------------
+---
 Clumps: https://www.curseforge.com/minecraft/mc-mods/clumps
 
 Connectivity: https://www.curseforge.com/minecraft/mc-mods/connectivity
@@ -51,7 +51,7 @@ into the beginning of JVM Arguments
 
 
 Optional: 
-------------
+---
 Set java path to specific java version #I did this to be safe
 
 Set Minecraft version.
@@ -60,6 +60,6 @@ Hit PLAY! Close when launched to install Forge & Optifine.
 
 Install Forge:
                                                   
-Navigate to your Forge installer, then java -jar forge-installer.jar
+Navigate to your Forge installer, then 'java -jar forge-installer.jar'
 
 (Note I have changed video settings to low & made edits to mods configuration)
