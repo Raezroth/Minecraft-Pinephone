@@ -14,29 +14,43 @@ For ubuntu: `sudo apt install openjdk-11-jdk -y`
 
 For Arch based: `sudo pacman -S jdk-openjdk`
 
+(Optional: Download Fabric: https://fabricmc.net/use/)
+
 Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
 
 Download Optifine: https://optifine.net/downloads #Set Optifine in mods folder.
 
 Optional Mods I used for performance. 
 ---
-Clumps: https://www.curseforge.com/minecraft/mc-mods/clumps
+FORGE:
 
-Connectivity: https://www.curseforge.com/minecraft/mc-mods/connectivity
+[Clumps:](https://www.curseforge.com/minecraft/mc-mods/clumps) /
 
-DataFixerSlayer: https://www.curseforge.com/minecraft/mc-mods/datafixerslayer
+[Connectivity:](https://www.curseforge.com/minecraft/mc-mods/connectivity) /
 
-FastFurnace: https://www.curseforge.com/minecraft/mc-mods/fastfurnace
+[DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /
 
-FastWorkbench: https://www.curseforge.com/minecraft/mc-mods/fastworkbench
+[FastFurnace:](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) /
 
-Limited Chunkloading: https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading
+[FastWorkbench:](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) /
 
-MCMT: https://www.curseforge.com/minecraft/mc-mods/mcmt-multithreading
+[Limited Chunkloading:](https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading) /
 
-Performant: https://www.curseforge.com/minecraft/mc-mods/performant
+[MCMT:](https://www.curseforge.com/minecraft/mc-mods/mcmt-multithreading)/
 
-Placebo: https://www.curseforge.com/minecraft/mc-mods/placebo
+[Performant:](https://www.curseforge.com/minecraft/mc-mods/performant) /
+
+[Placebo:](https://www.curseforge.com/minecraft/mc-mods/placebo) 
+
+FABRIC:
+
+[Sodium](https://github.com/CaffeineMC/sodium-fabric) / 
+[Hydrogen](https://github.com/CaffeineMC/hydrogen-fabric) / 
+[Lithium](https://github.com/CaffeineMC/lithium-fabric) /
+[OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) /
+[Phosphor](https://github.com/CaffeineMC/phosphor-fabric) /
+[Sodium](https://github.com/CaffeineMC/sodium-fabric)
+
 
 If you find anymore information on using this mod list, Please post an issue.
 I want to know.
@@ -61,9 +75,10 @@ Optional:
 
 Hit PLAY! Close when launched to install Forge & Optifine.
 
-Install Forge:
+Install Forge or Fabric:
                                                   
-Navigate to your Forge installer, then `java -jar forge-installer.jar`
+Navigate to your Forge or Fabric installer, then `java -jar forge-installer.jar`
+
 
 TESTED ON: 
 ---
