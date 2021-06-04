@@ -77,10 +77,10 @@ Navigate to your Forge or Fabric installer, then `java -jar forge-installer.jar`
 TESTED ON: 
 ---
 
-Device: Pinephone 3gb/32gb
+Device: `Pinephone 3gb/32gb`
 
-Distro: DanctNIX's ArchLinux Mobile
+Distro: `DanctNIX's ArchLinux Mobile`
 
-Controller: PS5 Dualsense - Bluetooth
+Controller: `PS5 Dualsense - Bluetooth`
 
 (Note I have changed video settings to low & made edits to mods configuration. I will provide my cfg files if requested.)
