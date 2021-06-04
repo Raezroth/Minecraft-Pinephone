@@ -57,7 +57,9 @@ STEPS
 
 3. Setup Forge or Fabric with Optifine
 
-4. PROFITTT!!!!! 
+4. .....
+
+5. PROFITTT!!!!! 
 
 WILL NOT LAUNCH GAME WHEN HITTING PLAY WITHOUT THIS STEP
 ---
