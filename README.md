@@ -25,26 +25,16 @@ Optional Mods I used for performance.
 FORGE:
 
 [Clumps:](https://www.curseforge.com/minecraft/mc-mods/clumps) /
-
 [Connectivity:](https://www.curseforge.com/minecraft/mc-mods/connectivity) /
-
 [DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /
-
 [FastFurnace:](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) /
-
 [FastWorkbench:](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) /
-
 [Limited Chunkloading:](https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading) /
-
 [MCMT:](https://www.curseforge.com/minecraft/mc-mods/mcmt-multithreading)/
-
 [Performant:](https://www.curseforge.com/minecraft/mc-mods/performant) /
-
 [Placebo:](https://www.curseforge.com/minecraft/mc-mods/placebo) 
 
 FABRIC:
-
-[Sodium](https://github.com/CaffeineMC/sodium-fabric) / 
 [Hydrogen](https://github.com/CaffeineMC/hydrogen-fabric) / 
 [Lithium](https://github.com/CaffeineMC/lithium-fabric) /
 [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) /
