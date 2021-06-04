@@ -26,7 +26,8 @@ fi
 # sets up desktop file
 sudo mkdir /opt/minecraft
 sudo cp -r minecraft_logo.png /opt/minercraft/minecraft_logo.png
-sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.Desktop
+sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.desktop
+sudo chmod +x /usr/share/applications/Minecraft.desktop
 
 # download minecraft launcher
 echo Setup 3/8
