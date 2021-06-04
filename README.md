@@ -41,6 +41,8 @@ Placebo: https://www.curseforge.com/minecraft/mc-mods/placebo
 If you find anymore information on using this mod list, Please post an issue.
 I want to know.
 
+STEPS
+---
 Run setup script.
 
 Run launcher via script or preferred method. #You may have to set the path to java
