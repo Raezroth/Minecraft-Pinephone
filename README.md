@@ -43,9 +43,9 @@ I want to know.
 
 STEPS
 ---
-Run setup script.
+1. Run setup script.
 
-Run launcher via script or preferred method. #You may have to set the path to java
+2. Run launcher via script or preferred method. #You may have to set the path to java
 
 WILL NOT LAUNCH GAME WHEN HITTING PLAY WITHOUT THIS STEP
 ---
@@ -55,9 +55,9 @@ into the beginning of JVM Arguments while editing a profile
 
 Optional: 
 ---
-Set java path to specific java version #I did this to be safe
+1. Set java path to specific java version #I did this to be safe
 
-Set Minecraft version.
+2. Set Minecraft version.
 
 Hit PLAY! Close when launched to install Forge & Optifine.
 
