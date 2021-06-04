@@ -64,8 +64,11 @@ Navigate to your Forge installer, then `java -jar forge-installer.jar`
 
 TESTED ON: 
 ---
+
 Device: Pinephone 3gb/32gb
+
 Distro: DanctNIX's ArchLinux Mobile
+
 Controller: PS5 Dualsense - Bluetooth
 
 (Note I have changed video settings to low & made edits to mods configuration)
