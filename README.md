@@ -10,9 +10,9 @@ WARNING: YOUR PINEPHONE WILL GET HOT!!! USE IN SINGLE SCREEN WHEN USING CONVERGE
 
 Install OpenJDK for Launcher, Forge, & Optifine
 ---
-For ubuntu: 'sudo apt install openjdk-11-jdk -y'
+For ubuntu: `sudo apt install openjdk-11-jdk -y`
 
-For Arch based: 'sudo pacman -S jdk-openjdk'
+For Arch based: `sudo pacman -S jdk-openjdk`
 
 Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
 
@@ -46,7 +46,7 @@ Run setup script.
 Run launcher via script or preferred method. #You may have to set the path to java
 
 
-Add -Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64 or -Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm32
+Add `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64` or `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm32`
 into the beginning of JVM Arguments 
 
 
@@ -60,6 +60,11 @@ Hit PLAY! Close when launched to install Forge & Optifine.
 
 Install Forge:
                                                   
-Navigate to your Forge installer, then 'java -jar forge-installer.jar'
+Navigate to your Forge installer, then `java -jar forge-installer.jar`
+
+TESTED ON: 
+---
+Device: Pinephone 3gb/32gb
+Distro: DanctNIX's ArchLinux Mobile
 
 (Note I have changed video settings to low & made edits to mods configuration)
