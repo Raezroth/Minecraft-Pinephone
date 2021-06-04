@@ -27,6 +27,7 @@ fi
 sudo mkdir /opt/minecraft
 sudo cp -r minecraft_logo.png /opt/minercraft/minecraft_logo.png
 sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.desktop
+sudo cp -r launcher.jar /opt/minecraft/launcher.jar
 sudo chmod +x /usr/share/applications/Minecraft.desktop
 
 # download minecraft launcher
