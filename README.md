@@ -32,6 +32,8 @@ FastWorkbench: https://www.curseforge.com/minecraft/mc-mods/fastworkbench
 
 Limited Chunkloading: https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading
 
+[Lithium](https://github.com/CaffeineMC/lithium-fabric) / [Sodium](https://github.com/CaffeineMC/sodium-fabric) / [Hydrogen](https://github.com/CaffeineMC/hydrogen-fabric) / [Phosphor](https://github.com/CaffeineMC/phosphor-fabric)
+
 MCMT: https://www.curseforge.com/minecraft/mc-mods/mcmt-multithreading
 
 Performant: https://www.curseforge.com/minecraft/mc-mods/performant
