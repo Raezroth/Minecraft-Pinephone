@@ -23,7 +23,6 @@ Download Optifine: https://optifine.net/downloads #Set Optifine in mods folder.
 Optional Mods I used for performance. 
 ---
 FORGE:
-
 [Clumps:](https://www.curseforge.com/minecraft/mc-mods/clumps) /
 [Connectivity:](https://www.curseforge.com/minecraft/mc-mods/connectivity) /
 [DataFixerSlayer:](https://www.curseforge.com/minecraft/mc-mods/datafixerslayer) /
