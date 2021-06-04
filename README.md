@@ -55,6 +55,10 @@ STEPS
 
 2. Run launcher via script or preferred method. #You may have to set the path to java
 
+3. Setup Forge or Fabric with Optifine
+
+4. PROFITTT!!!!! 
+
 WILL NOT LAUNCH GAME WHEN HITTING PLAY WITHOUT THIS STEP
 ---
 Add `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64` or `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm32`
