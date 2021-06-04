@@ -5,7 +5,6 @@ Comment=Minecraft Java Edition
 Exec=env java -jar ~/Minecraft/launcher.jar
 Icon=/opt/minecraft/minecraft_logo.png
 Keywords=Java;Mojang;
-MimeType=application/x-nx-xci;application/x-nx-nsp;application/x-nx-nso;application/x-nx-nro;
 Name=Minecraft
 Name=Minecraft
 Path=
