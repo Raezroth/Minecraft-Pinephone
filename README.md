@@ -5,6 +5,8 @@ Setup guide for getting Minecraft running on the PinePhone.
 WARNING: YOUR PINEPHONE WILL GET HOT!!! USE IN SINGLE SCREEN WHEN USING CONVERGENCE DOCK. 
 
       git clone https://github.com/Raezroth/Minecraft-Pinephone.git ~/Minecraft
+      
+      cd ~/Minecraft
 
 Install OpenJDK for Launcher, Forge, & Optifine
 ------------------------------------------------
