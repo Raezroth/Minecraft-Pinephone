@@ -46,7 +46,7 @@ Run setup script.
 Run launcher via script or preferred method. #You may have to set the path to java
 
 WILL NOT RUN WITHOUT THIS STEP
-
+---
 Add `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64` or `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm32`
 into the beginning of JVM Arguments while editing a profile
 
