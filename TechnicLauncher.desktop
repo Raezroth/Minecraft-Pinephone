@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories=Game;Java;GTK;
+Comment=Technic Launcher
+Comment=Technic Launcher
+Exec=env java -jar /opt/technic/TechnicLauncher.jar
+Icon=/opt/technic/technic_logo.png
+Keywords=Java;Mojang;
+Name=Technic Launcher
+Name=Technic Launcher
+Path=
+StartupNotify=true
+StartupWMClass=Minecraft
+Type=Application
+Version=1.0
