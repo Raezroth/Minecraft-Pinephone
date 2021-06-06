@@ -2,7 +2,7 @@
 Categories=Game;Java;GTK;
 Comment=Minecraft Java Edition
 Comment=Minecraft Java Edition
-Exec=env java -jar /opt/minecraft/Minecraft/launcher.jar
+Exec=env java -jar /opt/minecraft/launcher.jar
 Icon=/opt/minecraft/minecraft_logo.png
 Keywords=Java;Mojang;
 Name=Minecraft
