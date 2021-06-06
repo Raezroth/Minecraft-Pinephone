@@ -21,7 +21,7 @@ For Arch based: `sudo pacman -S jdk-openjdk`
 
 (Optional: Download Fabric: https://fabricmc.net/use/)
 
-Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
+==RECOMMENDED==Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
 
 Download Optifine: https://optifine.net/downloads #Set Optifine in mods folder.
 
@@ -37,7 +37,8 @@ FORGE:
 [Limited Chunkloading:](https://www.curseforge.com/minecraft/mc-mods/limited-chunkloading) /
 [MCMT:](https://www.curseforge.com/minecraft/mc-mods/mcmt-multithreading)/
 [Performant:](https://www.curseforge.com/minecraft/mc-mods/performant) /
-[Placebo:](https://www.curseforge.com/minecraft/mc-mods/placebo) 
+[Placebo:](https://www.curseforge.com/minecraft/mc-mods/placebo) /
+[Smooth Boot](https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge)
 
 FABRIC:
 [Hydrogen](https://github.com/CaffeineMC/hydrogen-fabric) / 
