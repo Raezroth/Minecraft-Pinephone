@@ -27,18 +27,20 @@ fi
 
 # download minecraft launcher
 echo Setup 3/8
-if [ ! -f launcher.jar ]; then
+if [ ! -f TechnicLauncher.jar ]; then
 
-    wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar
+    wget https://launcher.technicpack.net/launcher4/652/TechnicLauncher.jar
 fi 
  
-     # sets up desktop file
-    sudo mkdir /opt/minecraft
-    sudo cp -r minecraft_logo.png /opt/minecraft/minecraft_logo.png
-    sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.desktop  
-    sudo cp -r launcher.jar /opt/minecraft/launcher.jar
-    sudo chmod +x /usr/share/applications/Minecraft.desktop
- 
+# Sets up desktop file.
+if [ ! -f /opt/technic/TechnicLauncher.jar ]; then
+    sudo mkdir /opt/technic
+    sudo cp -r technic_logo.png /opt/minecraft/technic_logo.png
+    sudo cp -r TechnicLauncher.desktop /usr/share/applications/TechnicLauncher.desktop  
+    sudo cp -r TechnicLauncher.jar /opt/minecraft/TechnicLauncher.jar
+    sudo chmod +x /usr/share/applications/TechnicLauncher.desktop
+fi
+
 # download java  
 echo Setup 4/8
 if [ "$MACHINE" = "aarch64" ]; then
