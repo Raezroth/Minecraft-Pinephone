@@ -23,18 +23,19 @@ else
     fi
 fi
 
-# sets up desktop file
-sudo mkdir /opt/minecraft
-sudo cp -r minecraft_logo.png /opt/minercraft/minecraft_logo.png
-sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.desktop
-sudo cp -r launcher.jar /opt/minecraft/launcher.jar
-sudo chmod +x /usr/share/applications/Minecraft.desktop
+
 
 # download minecraft launcher
 echo Setup 3/8
 if [ ! -f launcher.jar ]; then
 
     wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar
+    # sets up desktop file
+    sudo mkdir /opt/minecraft
+    sudo cp -r minecraft_logo.png /opt/minercraft/minecraft_logo.png
+    sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.desktop  
+    sudo cp -r launcher.jar /opt/minecraft/launcher.jar
+    sudo chmod +x /usr/share/applications/Minecraft.desktop
 fi 
  
 # download java  
