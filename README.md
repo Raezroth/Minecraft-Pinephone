@@ -16,7 +16,8 @@ Make sure you read below!
 Install OpenJDK for Launcher, Forge, & Optifine
 ---
 For ubuntu: `sudo apt install openjdk-11-jdk -y`
-Install LWJGL 2.9 for older minecraft: https://launchpad.net/ubuntu/disco/arm64/liblwjgl-java-jni/2.9.3+dfsg-5
+
+(Download + Install .deb file)Install LWJGL 2.9 for older minecraft: https://launchpad.net/ubuntu/disco/arm64/liblwjgl-java-jni/2.9.3+dfsg-5
 
 For Arch based: `sudo pacman -S jdk-openjdk`
 LWJGL 2.9 for arch 0Coming soon.
