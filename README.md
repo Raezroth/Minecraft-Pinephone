@@ -20,7 +20,7 @@ For ubuntu: `sudo apt install openjdk-11-jdk -y`
 (Download + Install .deb file)Install LWJGL 2.9 for older minecraft: https://launchpad.net/ubuntu/disco/arm64/liblwjgl-java-jni/2.9.3+dfsg-5
 
 For Arch based: `sudo pacman -S jdk-openjdk`
-LWJGL 2.9 for arch 0Coming soon.
+LWJGL 2.9 for arch Coming soon. -- Taking longer due other projects and 1.17 not launching due to missing .so files apparently. 
 
 (Optional: Download Fabric: https://fabricmc.net/use/)
 
