@@ -22,9 +22,9 @@ For ubuntu: `sudo apt install openjdk-11-jdk -y`
 For Arch based: `sudo pacman -S jdk-openjdk`
 LWJGL 2.9 for arch Coming soon. -- Taking longer due other projects and 1.17 not launching due to missing .so files apparently. 
 
-(Optional: Download Fabric: https://fabricmc.net/use/)
+Recommended(Lite): Download Fabric: https://fabricmc.net/use/)
 
-==RECOMMENDED==Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
+Download Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
 
 Download Optifine: https://optifine.net/downloads #Set Optifine in mods folder.
 
