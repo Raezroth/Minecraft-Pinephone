@@ -15,12 +15,12 @@ sudo mkdir /opt/minecraft
 if [ "$MACHINE" = "aarch64" ]; then
     echo "Distro (64 bit)"
     if [ ! -d /opt/minecraft/lwjgl3arm64 ]; then
-        mkdir /opt/minecraft/lwjgl3arm64
+       sudo mkdir /opt/minecraft/lwjgl3arm64
     fi
 else
     echo "Distro (32 bit)"
     if [ ! -d /opt/minecraft/lwjgl3arm32 ]; then
-        mkdir /opt/minecraft/lwjgl3arm32
+       sudo mkdir /opt/minecraft/lwjgl3arm32
     fi
 fi
 
