@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 MACHINE=$(uname -m)
-DIR=~/Minecraft
+DIR=~/Minecraft-Pinephone
 # create folders
 echo Setup 1/8
 if [ ! -d "$DIR" ]; then
@@ -11,19 +11,18 @@ cd "$DIR"
 pwd
 
 echo Setup 2/8
+sudo mkdir /opt/minecraft
 if [ "$MACHINE" = "aarch64" ]; then
     echo "Distro (64 bit)"
-    if [ ! -d ~/lwjgl3arm64 ]; then
-        mkdir ~/lwjgl3arm64
+    if [ ! -d /opt/minecraft/lwjgl3arm64 ]; then
+        mkdir /opt/minecraft/lwjgl3arm64
     fi
 else
     echo "Distro (32 bit)"
-    if [ ! -d ~/lwjgl3arm32 ]; then
-        mkdir ~/lwjgl3arm32
+    if [ ! -d /opt/minecraft/lwjgl3arm32 ]; then
+        mkdir /opt/minecraft/lwjgl3arm32
     fi
 fi
-
-
 
 # download minecraft launcher
 echo Setup 3/8
@@ -34,7 +33,6 @@ fi
 
       # sets up desktop file
  if [ ! -f /opt/minecraft/launcher.jar ]; then
-    sudo mkdir /opt/minecraft
     sudo cp -r minecraft_logo.png /opt/minecraft/minecraft_logo.png
     sudo cp -r Minecraft.desktop /usr/share/applications/Minecraft.desktop  
     sudo cp -r launcher.jar /opt/minecraft/launcher.jar
@@ -74,14 +72,17 @@ fi
 echo Setup 7/8
 echo Extracting java ...
 if [ "$MACHINE" = "aarch64" ]; then
-    sudo tar -zxf jdk-8u251-linux-arm64-vfp-hflt.tar.gz -C /opt/jdk
+    cd /opt/jdk
+    sudo tar -zxf jdk-8u251-linux-arm64-vfp-hflt.tar.gz
 # extract lwjgl3arm32
 echo Setup 8/8
 echo Extracting lwjgl3arm...
 if [ "$MACHINE" = "aarch64" ]; then
-    tar -zxf lwjgl3arm64.tar.gz -C ~/lwjgl3arm64
+    cd /opt/minecraft/lwjgl3arm64
+    sudo tar -zxf lwjgl3arm64.tar.gz
 else
-    tar -zxf lwjgl3arm32.tar.gz -C ~/lwjgl3arm32
+    cd /opt/minecraft/lwjgl3arm32
+    sudo tar -zxf lwjgl3arm32.tar.gz
 fi
 
 echo Done!!!
