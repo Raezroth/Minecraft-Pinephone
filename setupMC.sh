@@ -73,16 +73,16 @@ echo Setup 7/8
 echo Extracting java ...
 if [ "$MACHINE" = "aarch64" ]; then
     cd /opt/jdk
-    sudo tar -zxf jdk-8u251-linux-arm64-vfp-hflt.tar.gz
+    sudo tar -zxf $DIR/jdk-8u251-linux-arm64-vfp-hflt.tar.gz
 # extract lwjgl3arm32
 echo Setup 8/8
 echo Extracting lwjgl3arm...
 if [ "$MACHINE" = "aarch64" ]; then
     cd /opt/minecraft/lwjgl3arm64
-    sudo tar -zxf lwjgl3arm64.tar.gz
+    sudo tar -zxf $DIR/lwjgl3arm64.tar.gz
 else
     cd /opt/minecraft/lwjgl3arm32
-    sudo tar -zxf lwjgl3arm32.tar.gz
+    sudo tar -zxf $DIR/lwjgl3arm32.tar.gz
 fi
 
 echo Done!!!
