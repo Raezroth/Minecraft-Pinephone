@@ -68,7 +68,7 @@ STEPS
 
 WILL NOT LAUNCH GAME WHEN HITTING PLAY WITHOUT THIS STEP
 ---
-Add `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm64` or `-Dorg.lwjgl.librarypath=/home/$USER/lwjgl3arm32`
+Add `-Dorg.lwjgl.librarypath=/opt/minecrat/lwjgl3arm64` or `-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl3arm32`
 into the beginning of JVM Arguments while editing a profile
 
 
